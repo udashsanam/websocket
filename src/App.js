@@ -37,7 +37,7 @@ function App() {
   const events = [
     "/user/topic/video/chat"
   ];
-  let tokenAuth = { token: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWJpbmthcmtpNDIzQGdtYWlsLmNvbSIsImRpc3BsYXlOYW1lIjoiTmFiaW4gS2Fya2kiLCJhcHBVc2VySWQiOjE2NSwiYXV0aCI6IlJPTEVfTU9ERVJBVE9SIiwiaWF0IjoxNjgzMDI5ODk3fQ.5lERzDeirU02zoA_Zm2lzxEYG3awrUkgKswV5UaAzbk" };
+  let tokenAuth = { token: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWJpbmthcmtpNDIzQGdtYWlsLmNvbSIsImRpc3BsYXlOYW1lIjoiTmFiaW4gS2Fya2kiLCJhcHBVc2VySWQiOjE2NSwiYXV0aCI6IlJPTEVfTU9ERVJBVE9SIiwiaWF0IjoxNjg0NTcyMTkwfQ.ZVIteaN-Q4ljpiG3bWneefDLukFPAUXBkJDZav4iN5E" };
   client.connect(
     { ...tokenAuth },
     socket_success_callBack,
